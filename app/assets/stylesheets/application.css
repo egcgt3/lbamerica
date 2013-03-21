@@ -1,0 +1,268 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+ */
+
+body {
+font-family: 'Open Sans', 'Helvetica Neue', Arial sans-serif;
+font-size: 13px;
+line-height: 19px;
+color: #111;
+margin-top: 0px;
+margin-right: 0px;
+margin-left: 0px;
+margin-bottom: 0px;
+}
+
+.header{
+	margin-top: 0;
+	background: #000;
+	height: 65px;
+	width: 100%;
+	position: fixed;
+	z-index: 10000;
+}
+
+.header ul {
+	position: relative;
+	overflow: hidden;
+	width: 960px;
+	margin: 0 auto;
+	display: block;
+	list-style: none;
+	padding-top: 20px;
+}
+
+.header li {
+	float: left;
+	margin: 0 10px 0;
+}
+
+.header li a{
+	display: inline-block;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+/*	font: 14px/100% Arial, Helvetica, sans-serif; */
+	padding: .5em 2em .55em;
+	text-shadow: 0 1px 1px rgba(0,0,0,.3);
+	-webkit-border-radius: .5em; 
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+
+.header a:link{
+	color: #666;
+}
+
+.header a:hover{
+	color: #fff;
+}
+
+.header a:active{
+	color: #fff;
+}
+
+.header a:visited{
+	color: #666;
+}
+
+.section1{
+	width: 100%;
+	background-color: #fff;
+}
+
+.section2{
+	width: 100%;
+	height: 1000px;
+	background-color: #666;
+	background-image: url('/assets/black-noise.png');
+}
+
+.section3{
+	width: 100%;
+	height: 800px;
+	background-color: rgb(50, 52, 58);
+	background-image: url('/assets/black-noise.png');
+}
+
+
+.section4{
+	width: 100%;
+	height: 800px;
+	background-color: #fff;
+}
+
+
+ .footer{
+ 	padding-top: 25px;
+ 	font-style: italic;
+ 	text-align: center;
+ 	background-color: #ededed;
+ 	background-image: url('/assets/black-noise.png');
+ 	height: 50px;
+ }
+
+
+ .clear{
+ 	clear:  both;
+ }
+
+
+ /* Buttons */
+.button {
+	display: inline-block;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+/*	font: 14px/100% Arial, Helvetica, sans-serif; */
+	padding: .5em 2em .55em;
+	text-shadow: 0 1px 1px rgba(0,0,0,.3);
+	-webkit-border-radius: .5em; 
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+.button:hover {
+	text-decoration: none;
+}
+.button:active {
+	position: relative;
+	top: 1px;
+}
+
+ .orange {
+	color: #fef4e9;
+	border: solid 1px #da7c0c;
+	background: #f78d1d;
+	background: -webkit-gradient(linear, left top, left bottom, from(#faa51a), to(#f47a20));
+	background: -moz-linear-gradient(top,  #faa51a,  #f47a20);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#faa51a', endColorstr='#f47a20');
+}
+.orange:hover {
+	background: #f47c20;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f88e11), to(#f06015));
+	background: -moz-linear-gradient(top,  #f88e11,  #f06015);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f88e11', endColorstr='#f06015');
+}
+.orange:active {
+	color: #fcd3a5;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f47a20), to(#faa51a));
+	background: -moz-linear-gradient(top,  #f47a20,  #faa51a);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f47a20', endColorstr='#faa51a');
+}
+
+
+
+
+/* Section 1 */
+
+.coin-slider-section{
+	width: 960px;
+	margin: 0 auto;
+}
+
+
+
+
+/* home sub pictes */
+
+.homeSubPicsArea{
+	width: 960px;
+	margin: 20px auto;
+}
+
+.homeSubPics{
+	display: inline-block;
+	margin-right: 10px;
+	width: 300px;
+}
+
+.homeSubPics p{
+	word-wrap:  break-word;
+}
+
+
+
+
+
+/* Section 2 */
+
+.rowOfPictures{
+	width: 960px;
+	margin: 20px auto;
+}
+
+.rowOfPicturesPic{
+	display: inline-block;
+	margin-right: 5px;
+	width: 225px;
+}
+
+.rowOfPicturesPic img{
+	border: 2px solid #ccc;
+}
+
+.rowOfPicturesPic h2{
+	font-style:  italic;
+	text-align: center;
+}
+
+.rowOfPicturesPic p{
+	word-wrap:  break-word;
+}
+
+
+
+
+/* Section 3 */
+
+.coachContainer{
+	width: 960px;
+	margin: 20px auto;
+	color: #dedede;
+}
+
+.coachContainer p{
+	color: #999;
+}
+
+.coachVideoContainer{
+	display: inline-block;
+	border: 5px solid #ccc;
+}
+
+.coachPhotoContainer{
+	display: inline-block;;
+	border: 5px solid #ccc;
+	margin-right: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
